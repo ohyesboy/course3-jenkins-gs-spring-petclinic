@@ -4,12 +4,7 @@ pipeline{
     agent any
     
     stages{
-        stage("checkout"){
-        steps
-        {
-            git branch:'main', url:'https://github.com/ohyesboy/course3-jenkins-gs-spring-petclinic.git'
-        }
-        }
+
         
         stage("build"){
         steps
